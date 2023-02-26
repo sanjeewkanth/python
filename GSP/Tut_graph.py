@@ -13,8 +13,8 @@ W = np.array([[0, 1, 1, 0, 0],
  [0, 1, 0, 1, 0]])
 
 
-W = W + W.T
-print(W)
+#W = W + W.T
+#print(W)
 np.fill_diagonal(W, 0)
 G = graphs.Graph(W)
 #print('{} nodes, {} edges'.format(G.N, G.Ne))
